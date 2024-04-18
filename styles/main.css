@@ -1,0 +1,14 @@
+.fish__image{
+    width: 10em;
+}
+.fishList{
+    display: flex;
+    flex-direction: row;
+}
+.fish__card{
+    padding: 4px;
+}
+.fish__name{
+    font-weight: bolder;
+    color: rgb(181, 32, 146)
+}
