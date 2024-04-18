@@ -1,14 +1,68 @@
+.martinSite{
+    display: flex;
+    flex-direction: row;
+}
+body {
+    background-color: rgb(218, 185, 227);
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  h1 {
+    color: rgb(190, 201, 212);
+    text-align: center;
+    border: 3px solid rgb(184, 106, 184);
+    border-radius: 5px;
+    background-color: rgb(184, 106, 184);
+  }
+
+.fishList{
+    text-align: center;
+}
 .fish__image{
     width: 10em;
 }
 .fishList{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 .fish__card{
     padding: 4px;
 }
 .fish__name{
     font-weight: bolder;
-    color: rgb(181, 32, 146)
+    color: rgb(145, 79, 130)
+}
+
+.fish__card{
+    border-radius: 4px;
+    padding: 5px;
+    background-color: rgb(122, 192, 168);
+}
+.location{
+    text-align: center;
+}
+.location__image{
+    width: 10em;
+}
+.location__name{
+    font-weight: bolder;
+    color:rgb(145, 79, 130)
+}
+.location__card{
+    background-color: rgb(229, 234, 135);
+    border-radius: 4px;
+    padding: 5px;
+    text-align: center;
+}
+.tipList{
+    text-align: center;
+}
+.tip__card{
+    background-color:  rgb(195, 117, 148);
+    border-radius: 2px;
+    padding: 3px;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
 }
